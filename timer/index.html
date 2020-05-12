@@ -1,7 +1,45 @@
 <!DOCTYPE html>
 <html>
-  <head></head>
-  <body>
-    <script src="index.js"></script>
-  </body>
+	<head>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+
+		<div class="timer">
+			<div class="controls">
+				<input id="duration" type="text" value="5" />
+				<div class="buttons">
+					<button id="startBtn">
+						<i class="fas fa-play"></i>
+					</button>
+					<button id="pauseBtn">
+						<i class="fas fa-pause"></i>
+					</button>
+				</div>
+			</div>
+			<div class="dial">
+				<svg height="400" width="400">
+					<circle 
+					r = "190" 
+					cx = "200"
+					cy = "200"
+					fill = "transparent"
+					stroke = "#63b7af"
+					stroke-width = "15"
+					transform = "rotate(-90 200 200)"
+					>
+				</svg>
+			</div>
+			
+		</div>
+
+		<audio autoplay>
+			Your browser does not support the <code>audio</code> element.
+		</audio>
+		<!-- JS -->
+		<script src="timer.js"></script>
+		<script src="index.js"></script>
+		<!-- <script src="app.js"></script> -->
+	</body>
 </html>

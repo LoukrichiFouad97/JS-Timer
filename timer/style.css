@@ -1,0 +1,40 @@
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.timer {
+	position: relative;
+}
+.controls {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	display: flex;
+	flex-direction: column;
+}
+.controls input {
+	border: 0;
+	background-color: inherit;
+	font-size: 6rem;
+	width: 250px;
+  text-align: center;
+  outline: none;
+  color: #222;
+}
+.controls .buttons {
+	display: flex;
+	justify-content: center;
+}
+.controls button {
+	border: 0;
+	background-color: inherit;
+	color: #222;
+	font-size: 2rem;
+	outline: none;
+}
