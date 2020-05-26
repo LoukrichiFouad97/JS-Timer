@@ -4,8 +4,8 @@ body {
 	align-items: center;
 	height: 100vh;
 	padding: 0;
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 .timer {
 	position: relative;
@@ -23,9 +23,9 @@ body {
 	background-color: inherit;
 	font-size: 6rem;
 	width: 250px;
-  text-align: center;
-  outline: none;
-  color: #222;
+	text-align: center;
+	outline: none;
+	color: #222;
 }
 .controls .buttons {
 	display: flex;
@@ -38,3 +38,5 @@ body {
 	font-size: 2rem;
 	outline: none;
 }
+
+
